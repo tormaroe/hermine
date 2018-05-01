@@ -1,5 +1,5 @@
 Turtle.PenDown()
-Turtle.Speed = 8
+Turtle.Speed = 6
 
 Turtle.Move(20)
 Turtle.TurnRight()
@@ -60,4 +60,50 @@ For i = 1 To 3
   Turtle.Move(35)
 EndFor
 
+Turtle.PenUp()
+Turtle.TurnLeft()
+Turtle.Move(10)
+Turtle.TurnLeft()
+Turtle.Move(50)
 
+Turtle.PenDown()
+Turtle.Move(35)
+Turtle.TurnLeft()
+Turtle.Move(30)
+
+Turtle.PenUp()
+Turtle.Move(5)
+
+Turtle.PenDown()
+Turtle.Turn(-60)
+Turtle.Move(45)
+Turtle.Turn(120)
+Turtle.Move(45)
+Turtle.Turn(180)
+Turtle.Move(22)
+Turtle.Turn(-60)
+Turtle.Move(25)
+Turtle.Turn(180)
+Turtle.Move(25)
+Turtle.Turn(60)
+Turtle.Move(22)
+Turtle.Turn(-60)
+
+Turtle.PenUp()
+Turtle.Move(5)
+
+Turtle.TurnLeft()
+Turtle.Move(35)
+Turtle.Turn(180)
+
+Turtle.PenDown()
+Turtle.Move(35)
+Turtle.TurnLeft()
+Turtle.Move(30)
+
+Turtle.PenUp()
+Turtle.Move(5)
+
+Turtle.PenDown()
+Turtle.TurnLeft()
+Turtle.Move(35)
