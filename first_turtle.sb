@@ -1,0 +1,63 @@
+Turtle.PenDown()
+Turtle.Speed = 8
+
+Turtle.Move(20)
+Turtle.TurnRight()
+
+Turtle.Move(25)
+Turtle.TurnLeft()
+
+Turtle.Move(35)
+Turtle.TurnLeft()
+
+Turtle.Move(40)
+
+Turtle.PenUp()
+Turtle.TurnRight()
+Turtle.Move(45)
+
+
+Turtle.PenDown()
+Turtle.Move(40)
+For i = 1 To 3 
+  Turtle.TurnLeft()
+  Turtle.Move(40)
+EndFor  
+
+Turtle.PenUp()
+Turtle.Move(45)
+
+Turtle.PenDown()
+Turtle.Move(40)
+For i = 1 To 3 
+  Turtle.TurnLeft()
+  Turtle.Move(40)
+EndFor  
+
+Turtle.PenUp()
+Turtle.Move(120)
+Turtle.TurnLeft()
+Turtle.Move(55)
+
+Turtle.PenDown()
+For i = 1 To 2
+  Turtle.TurnRight()
+  Turtle.Move(35)
+  Turtle.TurnRight()
+  Turtle.Move(140)
+EndFor
+
+Turtle.TurnLeft()
+
+For i = 1 To 3
+  Turtle.TurnLeft()
+  Turtle.Move(20)
+  Turtle.TurnLeft()
+  Turtle.Move(35)
+  Turtle.TurnRight()
+  Turtle.Move(20)
+  Turtle.TurnRight()
+  Turtle.Move(35)
+EndFor
+
+
